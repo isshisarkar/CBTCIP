@@ -1,0 +1,145 @@
+*{
+    font-family: 'Averia Serif Libre', cursive;
+    margin:auto;
+    text-align: center;
+    padding: 0;
+    
+}
+
+#MenuItems{
+    
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#M1,#M2,#M3,#M0 {
+    float: left;
+}
+
+#MenuItems li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+#about,#contact-me,#contact,#skills{
+    display: flexbox;
+}
+.isshi-img{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    padding: 15px 15px 15px 5px;
+}
+#about,#contact{
+    background-color: #A4BC92;
+}
+#skills,#MenuItems,#contact-me{
+    background-color: #99A98F;
+}
+/*hr{
+    margin-top: 5px;
+    margin-bottom: 1px;
+    color: white;
+    width: auto;
+    
+}*/
+.row{
+    margin: 0;
+    padding: 0;
+}
+#contact{
+    list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+
+}
+
+#contact li a {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 14px 12px 14px 12px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#contact li a:hover {
+    background-color: #0f0e0e;
+}
+
+form,.contact-me{
+        background-color: #99A98F;
+        padding: 4px 6px 14px 6px;
+        text-decoration: solid;
+        text-align: center;
+}
+ .namebox{
+    height: auto;
+    width: 150px;
+    padding: 0 auto;
+ }
+ .btn{
+    height: auto;
+    width: 5%;
+    align-self: flex-end;
+ }
+ p{
+    padding: 10px 120px 10px 120px;
+    text-align: justify;
+    font-size: medium;
+    font-weight: bold;
+    font-variant: normal;
+ }
+ h3{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+ }
+
+ 
+ /* Style the navbar */
+ #navbar {
+     overflow: hidden;
+     background-color: #333;
+ }
+
+ /* Navbar links */
+ #navbar a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px;
+     text-decoration: none;
+ }
+
+ /* Page content */
+ .content {
+     padding: 16px;
+ }
+
+ /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+ .sticky {
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
+
+ /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+ .sticky+.content {
+     padding-top: 60px;
+ }
